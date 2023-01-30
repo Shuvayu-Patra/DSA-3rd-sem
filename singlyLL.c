@@ -5,7 +5,7 @@ struct node{
     struct node *next;
 };
 struct node*head = NULL;
-struct node *tail = NULL;
+//struct node *tail = NULL;
 void InsertAtBeginning(){
     int data;
     printf("Enter Data : \n");
